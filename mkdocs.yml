@@ -1,0 +1,12 @@
+site_name: OmniLabs
+theme:
+    name: 'material'
+pages:
+- Home: 'index.md'
+- Projects: 
+    - Omnix:
+        - 'Home': 'Omnix/index.md'
+    - Xeus:
+        - 'Home': 'Xeus/index.md'
+    - Lxna:
+        - 'Home': 'Lxna/index.md'
