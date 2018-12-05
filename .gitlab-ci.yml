@@ -1,13 +1,13 @@
-image: python: 3.5
+image: python:3.7
 
 pages:
   stage: deploy
   script:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - mkdocs build -d public
+    - pip install mkdocs
+    - pip install mkdocs-material
+    - mkdocs build -d public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master
+    - master
