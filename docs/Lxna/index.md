@@ -2,4 +2,4 @@
 
 ## Links
 
-+ <https://gitlab.com/OmniLabs/Lxna>
++ <https://github.com/OmniusLabs/Lxna>

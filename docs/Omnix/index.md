@@ -2,4 +2,4 @@
 
 ## Links
 
-+ <https://gitlab.com/OmniLabs/Omnix>
++ <https://github.com/OmniusLabs/Omnix>

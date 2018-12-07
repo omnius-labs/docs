@@ -2,7 +2,8 @@
 
 ## Links
 
-+ <https://gitlab.com/OmniLabs>
++ <https://github.com/OmniusLabs>
++ <https://gitlab.com/OmniusLabs>
 
 ## Donations
 
