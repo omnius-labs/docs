@@ -1,12 +1,12 @@
-site_name: OmniusLabs
+site_name: Omnius Labs
 theme:
     name: 'material'
 pages:
 - Home: 'index.md'
 - Projects: 
     - Omnix:
-        - 'Home': 'Omnix/index.md'
+        - 'Home': 'omnix/index.md'
     - Xeus:
-        - 'Home': 'Xeus/index.md'
+        - 'Home': 'xeus/index.md'
     - Lxna:
-        - 'Home': 'Lxna/index.md'
+        - 'Home': 'lxna/index.md'

@@ -2,4 +2,4 @@
 
 ## Links
 
-+ <https://github.com/OmniusLabs/Xeus>
++ <https://github.com/omnius-labs/xeus>
