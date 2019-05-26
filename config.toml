@@ -1,0 +1,26 @@
+baseURL = "https://omnius-labs.gitlab.io/docs/"
+languageCode = "en-us"
+title = "Omnius Labs"
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir= true
+theme = "learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+editURL = "https://github.com/omnius-labs/docs/tree/master/content/"
+author = "Lyrise"
+themeVariant = "blue"
+
+[Languages]
+
+[Languages.en]
+title = "Omnius Labs"
+weight = 1
+languageName = "English"
+
+[Languages.ja]
+title = "Omnius Labs"
+weight = 2
+languageName = "Japanese"
