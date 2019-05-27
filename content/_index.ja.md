@@ -1,12 +1,12 @@
 # Omnius Labs
 
-## Goals of Omnius Labs
+## Goals
 
 Omnius Labsの目標は以下の通り。
 
 + 個人を豊かにすること。
 
-## Problems to solve
+## Problems
 
 Omnius Labsが解決する問題は以下の通り。
 
