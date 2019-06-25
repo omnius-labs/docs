@@ -1,4 +1,6 @@
-# Omnius Labs
+---
+title: "Omnius Labs"
+---
 
 ## Goals
 
@@ -19,3 +21,8 @@ Omnius Labsが解決する問題は以下の通り。
 
 + Xeus (データの分散共有プラットフォーム)
 + Lxna (データの閲覧管理プラットフォーム)
+
+## Links
+
++ Github: https://github.com/omnius-labs
++ Gitlab: https://gitlab.com/omnius-labs
