@@ -1,6 +1,4 @@
----
-title: "Omnius Labs"
----
+# Omnius Labs
 
 ## Goals
 
