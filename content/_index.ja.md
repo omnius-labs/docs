@@ -1,26 +1,16 @@
 # Omnius Labs
 
-## Goals
+## Mission
 
-Omnius Labsの目標は以下の通り。
++ 個人が実際に必要としているものを作ること。
++ 自立した個人をエンパワーすること。
 
-+ 個人を豊かにすること。
+## Projects
 
-## Problems
++ [Xeus](projects/xeus)
++ [Lxna](projects/lxna)
 
-Omnius Labsが解決する問題は以下の通り。
-
-+ 中央集権的なサービスに依存してしまう問題。
-+ ネットワーク上の通信が検閲されてしまう問題。
-
-## Actions
-
-以下のプロジェクトによって問題を解決する。
-
-+ Xeus (データの分散共有プラットフォーム)
-+ Lxna (データの閲覧管理プラットフォーム)
-
-## Links
+## Repos
 
 + Github: https://github.com/omnius-labs
 + Gitlab: https://gitlab.com/omnius-labs
