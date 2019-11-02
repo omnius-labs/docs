@@ -1,4 +1,4 @@
-baseURL = "https://omnius-labs.gitlab.io/docs/"
+baseURL = "https://omnius-labs.netlify.com/"
 languageCode = "en-us"
 title = "Omnius Labs"
 defaultContentLanguage = "ja"
