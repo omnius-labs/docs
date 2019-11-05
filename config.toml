@@ -1,8 +1,8 @@
-baseURL = "https://omnius-labs.netlify.com/"
+baseURL = "https://omnius-labs.com/"
 languageCode = "en-us"
 title = "Omnius Labs"
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir = true
 theme = "learn"
 
 [outputs]
