@@ -8,4 +8,3 @@ weight: 2
 ## Links
 
 + GitHub: https://github.com/omnius-labs/lxna
-+ GitLab: https://gitlab.com/omnius-labs/lxna

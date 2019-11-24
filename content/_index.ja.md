@@ -13,4 +13,3 @@
 ## Repos
 
 + Github: https://github.com/omnius-labs
-+ Gitlab: https://gitlab.com/omnius-labs
