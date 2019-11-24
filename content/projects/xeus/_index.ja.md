@@ -8,4 +8,3 @@ weight: 1
 ## Links
 
 + GitHub: https://github.com/omnius-labs/xeus
-+ GitLab: https://gitlab.com/omnius-labs/xeus
