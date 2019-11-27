@@ -11,7 +11,7 @@ home = [ "HTML", "RSS", "JSON"]
 [params]
 editURL = "https://github.com/omnius-labs/docs/tree/master/content/"
 author = "Lyrise"
-themeVariant = "blue"
+themeVariant = "black"
 
 [Languages]
 

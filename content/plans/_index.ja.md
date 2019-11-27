@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-weight: 2
+title: "Plans"
+weight: 1
 ---
 
 ## Table of Contents
