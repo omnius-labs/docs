@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-weight: 2
+title: "Users"
+weight: 3
 ---
 
 ## Table of Contents

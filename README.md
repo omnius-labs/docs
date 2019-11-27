@@ -4,7 +4,7 @@
 
 ## Links
 
-+ <https://omnius-labs.netlify.com/>
++ <https://omnius-labs.com/>
 
 ## License
 
