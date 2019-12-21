@@ -1,6 +1,6 @@
 ---
-title: "Plans"
-weight: 1
+title: "Members"
+weight: 2
 ---
 
 ## Table of Contents

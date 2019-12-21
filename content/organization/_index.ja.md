@@ -1,6 +1,6 @@
 ---
-title: "Users"
-weight: 3
+title: "Organization"
+weight: 1
 ---
 
 ## Table of Contents
