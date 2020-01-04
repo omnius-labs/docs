@@ -1,6 +1,5 @@
 ---
 title: "Lxna"
-description: "Remote file explorer"
 weight: 3
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Xeus"
-description: "Peer-to-peer data sharing platform"
 weight: 2
 ---
 

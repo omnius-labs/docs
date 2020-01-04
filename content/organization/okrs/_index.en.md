@@ -1,6 +1,5 @@
 ---
 title: "OKRs"
-description: "Objectives and Key Results (OKRs)"
 weight: 1
 ---
 

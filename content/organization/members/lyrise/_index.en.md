@@ -7,4 +7,4 @@ weight: 1
 
 - Blog: https://lyrise.blog.omnius-labs.com/
 - Twitter: https://twitter.com/lyrise1984
-- Github: https://github.com/lyrise
+- GitHub: https://github.com/lyrise

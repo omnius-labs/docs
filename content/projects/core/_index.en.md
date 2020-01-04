@@ -1,6 +1,5 @@
 ---
 title: "Core"
-description: "Libraries for Xeus, Lxna and others"
 weight: 1
 ---
 
