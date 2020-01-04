@@ -1,7 +1,7 @@
 baseURL = "https://docs.omnius-labs.com/"
 languageCode = "en-us"
 title = "Omnius Labs"
-defaultContentLanguage = "ja"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 theme = "learn"
 
@@ -19,8 +19,3 @@ themeVariant = "black"
 title = "Omnius Labs"
 weight = 1
 languageName = "English"
-
-[Languages.ja]
-title = "Omnius Labs"
-weight = 2
-languageName = "Japanese"

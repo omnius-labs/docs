@@ -1,5 +1,6 @@
 ---
 title: "OKRs"
+description: "Objectives and Key Results (OKRs)"
 weight: 1
 ---
 
@@ -8,6 +9,8 @@ weight: 1
 以下のフォーマットで記述する
 
 ```markdown
+
 - Objective
-  - Key Result (Confidence)
+  - Key Result (Confidence) -> Outcome
+
 ```
