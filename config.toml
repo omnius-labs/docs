@@ -1,21 +1,36 @@
-baseURL = "https://docs.omnius-labs.com/"
+baseURL = "/"
+
 languageCode = "en-us"
-title = "Omnius Labs"
+DefaultContentLanguage = "en"
+title = "Omnius-Labs Documentation"
+theme = "docdock"
+themesdir = "themes"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-theme = "learn"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[params]
+editURL = "https://github.com/omnius-labs/docs/blob/master/"
+showVisitedLinks = false # default is false
+themeStyle = "flex" # "original" or "flex" # default "flex"
+themeVariant = "grey" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = true # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-[params]
-editURL = "https://github.com/omnius-labs/docs/tree/master/content/"
-author = "Lyrise"
-themeVariant = "black"
-
-[Languages]
-
-[Languages.en]
-title = "Omnius Labs"
-weight = 1
-languageName = "English"
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> <label>Github</label>"
+identifier = "ds"
+url = "https://github.com/omnius-labs/"
+weight = 10

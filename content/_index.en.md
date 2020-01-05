@@ -2,4 +2,4 @@
 
 ## Missions
 
-### Empowering independent individuals
+### 1. Empowering independent individuals

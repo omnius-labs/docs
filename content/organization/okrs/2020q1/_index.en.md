@@ -7,5 +7,5 @@ weight: 7980
 
 ## Xeus
 
-- 
+- AAAA
   - 「Omnius.Xeus.Service.Implements」の実装が完了する (50%) -> ??% (https://github.com/omnius-labs/xeus/issues/5)
