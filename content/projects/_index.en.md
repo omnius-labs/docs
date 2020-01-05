@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 weight: 2
+alwaysopen: true
 ---
 
 ## Table of Contents

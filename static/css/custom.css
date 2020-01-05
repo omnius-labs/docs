@@ -1,8 +1,57 @@
+/* Fonts */
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/Work_Sans_200.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_200.woff") format("woff"), url("../fonts/Work_Sans_200.woff2") format("woff2"), url("../fonts/Work_Sans_200.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_200.ttf") format("truetype");
+}
 @font-face {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 300;
     src: url("../fonts/Work_Sans_300.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_300.woff") format("woff"), url("../fonts/Work_Sans_300.woff2") format("woff2"), url("../fonts/Work_Sans_300.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_300.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/Work_Sans_500.eot?#iefix") format("embedded-opentype"), url("../fonts/Work_Sans_500.woff") format("woff"), url("../fonts/Work_Sans_500.woff2") format("woff2"), url("../fonts/Work_Sans_500.svg#WorkSans") format("svg"), url("../fonts/Work_Sans_500.ttf") format("truetype");
+}
+
+/* Sidebar */
+article > aside {
+    background-color: 
+    #f9f9f9;
+    bottom: 0;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    left: 0;
+    padding: 2rem 0rem 1rem 0rem;
+    position: fixed;
+    top: 0.5rem;
+    width: 20rem;
+    overflow-y: auto;
+}
+article > aside .menu .dd-item li {
+    border-left: none;
+}
+article > aside .menu .dd-item li div a {
+    padding-left: 0.4rem;
+}
+article > aside .menu .dd-item li div a:hover {
+    padding-left: 0.4rem;
+}
+
+/* Page */
+article section.page {
+    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
 }
 article section.page h1:first-of-type {
     margin: 3rem 0rem;
@@ -15,7 +64,26 @@ article section.page h1:first-of-type {
     font-size: 3.25rem;
     line-height: 2.7rem;
 }
+article section.page p {
+    margin: 3px;
+    line-height: 1.6;
+}
+article section.page ul {
+    list-style-type: revert;
+}
 
+/* Header */
+header::after {
+    background: red;
+    content: '';
+    height: 0.25rem;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+
+/* Hide */
 .chevrons {
     display: none;
 }
