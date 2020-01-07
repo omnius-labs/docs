@@ -19,7 +19,7 @@ themeStyle = "flex" # "original" or "flex" # default "flex"
 themeVariant = "gray" # choose theme variant "green", "gold", "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
 disableHomeIcon = true # default is false
-disableSearch = true # default is false
+disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
 menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
@@ -31,6 +31,6 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Github</label>"
-identifier = "ds"
+identifier = "omnius-labs"
 url = "https://github.com/omnius-labs/"
 weight = 10
