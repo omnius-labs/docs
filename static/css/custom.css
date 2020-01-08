@@ -28,17 +28,22 @@ article section.page h1:first-of-type {
     font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     text-align: center;
     text-transform: none;
-    color: 
-    #060606;
+    color: #060606;
     font-weight: 300;
     font-size: 3.25rem;
-    line-height: 2.7rem;
+    line-height: 1.6em;
+}
+article section.page h1, section.page h2, article section.page h3, article section.page h4, article section.page h5, article section.page h6 {
+    margin: 0;
+    line-height: 1.6em;
 }
 article section.page p {
-    margin: 3px;
-    line-height: 1.6;
+    margin: 0;
+    line-height: 1.6em;
 }
-article section.page ul {
+article section.page ul, article section.page ol, article section.page li {
+    margin: 0;
+    line-height: 1.6em;
     list-style-type: revert;
 }
 
