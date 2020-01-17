@@ -9,7 +9,11 @@ Xeus is peer-to-peer data sharing platform.
 
 ## Goals
 
-Support sharing of data between individuals in a decentralized network.
+- Support sharing of data between individuals in a decentralized network.
+
+### Not Goals
+
+- Anonymization
 
 ## Features
 
