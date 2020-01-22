@@ -8,8 +8,6 @@ weight: 1
 以下のフォーマットで記述する
 
 ```markdown
-
 - Objective
   - Key Result (Confidence) -> Outcome
-
 ```
