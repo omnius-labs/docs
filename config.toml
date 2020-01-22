@@ -27,12 +27,12 @@ dateFormat = "2006年01月02日"
 [Params]
     # Souce Code repository section
     description = ""
-    github_repository = "https://github.com/omniu-labs"
+    github_repository = "https://github.com/omnius-labs"
     version = ""
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/omniu-labs/docs"
+    github_doc_repository = "https://github.com/omnius-labs/docs"
 
     # Analytic section
     google_analytics_id = "UA-104419086-2" # Your Google Analytics tracking id
