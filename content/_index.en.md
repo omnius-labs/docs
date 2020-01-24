@@ -1,9 +1,12 @@
----
-title: Introduction
----
-
 # Omnius Labs
+
+## Languages
+
+- English
+- 日本語
 
 ## Missions
 
-### 1. Empowering independent individuals
+### 1. Realization of autonomous decentralized society
+
+### 2. Empowering independent individuals
