@@ -2,8 +2,8 @@
 
 ## Languages
 
-- English
-- 日本語
+- [English](/en)
+- [日本語](/ja)
 
 ## Missions
 
