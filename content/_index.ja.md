@@ -4,11 +4,6 @@ title: "Home"
 
 # Omnius Labs
 
-## 言語
-
-- [English](/en)
-- [日本語](/ja)
-
 ## ミッション
 
 ### 1. 自律分散型社会の実現
