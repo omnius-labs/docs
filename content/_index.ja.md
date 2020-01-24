@@ -1,3 +1,7 @@
+---
+title: "Home"
+---
+
 # Omnius Labs
 
 ## 言語
