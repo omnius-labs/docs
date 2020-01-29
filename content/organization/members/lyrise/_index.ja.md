@@ -3,7 +3,7 @@ title: "Lyrise"
 weight: 1
 ---
 
-## Links
+## リンク
 
 - Blog: https://lyrise.blog.omnius-labs.com/
 - Twitter: https://twitter.com/lyrise1984

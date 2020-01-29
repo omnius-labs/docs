@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <h1>{{ .Title }}</h1>
 
-<input onkeyup="search(this.value)" size="15" autocomplete="off" autofocus placeholder="検索ワード" />
+<input onkeyup="search(this.value)" size="15" autocomplete="off" autofocus />
 <span id="inputWord"></span> <span id="resultCount"></span>
 <div id="result"></div>
 
@@ -101,7 +101,7 @@ function showResult(html) {
 
 function showResultCount(count, total) {
   var el = document.getElementById('resultCount');
-  el.innerHTML = '<b>' + count + '</b> 件見つかりました（' + total + '件中）';
+  el.innerHTML = ' (' + count + ' / ' + total + ') ';
 }
 </script>
 
