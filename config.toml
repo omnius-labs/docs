@@ -32,7 +32,7 @@ dateFormat = "2006年01月02日"
     github_doc_repository = "https://github.com/omnius-labs/docs"
 
     # Analytic section
-    google_analytics_id = "UA-104419086-2" # Your Google Analytics tracking id
+    google_analytics_id = "UA-104419086-1" # Your Google Analytics tracking id
     tag_manager_container_id = "" # Your Google Tag Manager container id
     google_site_verification = "" # Your Google Site Verification for Search Console
 
