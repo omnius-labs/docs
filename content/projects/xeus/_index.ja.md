@@ -7,11 +7,11 @@ weight: 2
 
 XeusはP2Pデータ共有プラットフォームです。
 
-## 目的
+## ゴール
 
 個人の間のデータのやり取りを非中央集権的ネットワークで行えるようにする事。
 
-### 目的外
+### ゴールではないこと
 
 - 通信内容の秘匿化と匿名化 (Tor, I2P で対応)
 
@@ -20,14 +20,14 @@ XeusはP2Pデータ共有プラットフォームです。
 - メッセージング機能 (WIP)
 - ファイル共有機能 (WIP)
 
+## 外部リンク
+
+- <https://github.com/omnius-labs/xeus>
+
 ## 参考
 
 - [IPFS](https://github.com/ipfs)
 - [Freenet](https://github.com/Freenet)
-
-## 外部リンク
-
-- <https://github.com/omnius-labs/xeus>
 
 ## ライセンス
 

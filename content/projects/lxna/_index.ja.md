@@ -7,7 +7,7 @@ weight: 3
 
 Lxnaはファイルマネージャーです。
 
-## 目的
+## ゴール
 
 自宅サーバーのファイルを簡単に管理＆閲覧できるようにすること。
 
@@ -15,15 +15,15 @@ Lxnaはファイルマネージャーです。
 
 - 軽量なサムネイル表示 (WIP)
 
-## リスペクト
+## リンク
+
+- <https://github.com/omnius-labs/lxna>
+
+## 参考
 
 - [Samba](https://github.com/samba-team/)
 - [QuickPic](https://play.google.com/store/apps/details?id=com.alensw.PicFolder)
 - [Dropbox](https://www.dropbox.com/)
-
-## リンク
-
-- <https://github.com/omnius-labs/lxna>
 
 ## ライセンス
 
