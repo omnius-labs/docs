@@ -1,4 +1,4 @@
 ---
-title: "Projects"
+title: "Members"
 weight: 4
 ---
