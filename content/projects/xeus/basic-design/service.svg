@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="410px" preserveAspectRatio="none" style="width:964px;height:410px;" version="1.1" viewBox="0 0 964 410" width="964px" zoomAndPan="magnify"><defs><filter height="300%" id="fq00n2wf94vly" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6caeae6afdc244fdad25d0aee34ca81e]
+entity ContentExchanger--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="137" x="253" y="8"/><image height="16" width="16" x="314" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="263" y="47.5332">ContentExchanger</text><!--MD5=[317ea83c4514bdd72919797a60ad7cdc]
+entity MessageExchanger--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="144" x="548.5" y="8"/><image height="16" width="16" x="613" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="124" x="558.5" y="47.5332">MessageExchanger</text><!--MD5=[385f1773fb5a5c6a8030e90a95b2a968]
+entity NodeFinder--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="94" x="425.5" y="121"/><image height="16" width="16" x="465" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="131"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="435.5" y="160.5332">NodeFinder</text><!--MD5=[2af6390990b4961b159f2751add11456]
+entity PublishContentStorage--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="166" x="194.5" y="234"/><image height="16" width="16" x="270" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="244"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="204.5" y="273.5332">PublishContentStorage</text><!--MD5=[00a1e690b31ecdb88855649feca9a475]
+entity WantContentStorage--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="153" x="6" y="234"/><image height="16" width="16" x="75" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="244"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="16" y="273.5332">WantContentStorage</text><!--MD5=[cf10159da7249bd02f2d444cf60380b3]
+entity PublishMessageStorage--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="173" x="780" y="234"/><image height="16" width="16" x="859" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="244"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="790" y="273.5332">PublishMessageStorage</text><!--MD5=[8daa9b034cb575ef42f153fb8ccc195e]
+entity WantMessageStorage--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="160" x="584.5" y="234"/><image height="16" width="16" x="657" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="244"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="594.5" y="273.5332">WantMessageStorage</text><!--MD5=[e1f07391ec740b735d137b8499a4172f]
+entity ConnectionController--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="154" x="395.5" y="234"/><image height="16" width="16" x="465" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="244"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="405.5" y="273.5332">ConnectionController</text><!--MD5=[0a0aec1fe8047a4841f48a13420bf3d5]
+entity ObjectStore--><rect fill="#FEFECE" filter="url(#fq00n2wf94vly)" height="52.6094" rx="12.5" ry="12.5" style="stroke: #000000; stroke-width: 1.5;" width="95" x="423" y="347"/><image height="16" width="16" x="463" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAK0lEQVR42mNgoBH4RyTGawAxlhBtK9EGkOIa6rtgNAyoEAaDzwCK8gL9AACFlUN5Y2HbxQAAAABJRU5ErkJggg==" y="357"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="75" x="433" y="386.5332">ObjectStore</text><!--MD5=[5893432ee93e183a763762b998b85f7b]
+link ContentExchanger to NodeFinder--><path d="M356.522,61.245 C379.582,78.196 409.796,100.406 433.603,117.907 " fill="none" id="ContentExchanger-&gt;NodeFinder" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="437.668,120.895,432.7842,112.3423,433.6389,117.9342,428.047,118.7889,437.668,120.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a6131961c34a940f6ce17f1ff7d8448c]
+link ContentExchanger to ConnectionController--><path d="M336.489,61.234 C353.119,89.397 381.101,135.648 407.5,174 C420.56,192.974 436.151,213.545 448.79,229.753 " fill="none" id="ContentExchanger-&gt;ConnectionController" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="451.936,233.777,449.5428,224.2233,448.8559,229.8383,443.2409,229.1515,451.936,233.777" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[220e073f3e04a199209b7d865c74a08e]
+link ContentExchanger to PublishContentStorage--><path d="M316.453,61.196 C308.302,102.69 292.274,184.287 283.533,228.785 " fill="none" id="ContentExchanger-&gt;PublishContentStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="282.556,233.76,288.2168,225.7005,283.5204,228.8539,280.367,224.1575,282.556,233.76" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1648c27f36e0c649e3d562460690115d]
+link ContentExchanger to WantContentStorage--><path d="M294.084,61.196 C249.361,103.111 160.979,185.947 113.84,230.127 " fill="none" id="ContentExchanger-&gt;WantContentStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="109.964,233.76,119.2659,230.5234,113.612,230.3406,113.7948,224.6867,109.964,233.76" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f70986f5e8479de2a497f9fa128dcb25]
+link MessageExchanger to ConnectionController--><path d="M605.899,61.238 C589.689,89.405 562.386,135.66 536.5,174 C523.683,192.983 508.333,213.554 495.879,229.761 " fill="none" id="MessageExchanger-&gt;ConnectionController" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="492.779,233.784,501.4419,229.0984,495.8318,229.8241,495.1061,224.214,492.779,233.784" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7b89b04fbba9cbc0684b489911c520ce]
+link MessageExchanger to NodeFinder--><path d="M586.174,61.245 C563.665,78.126 534.203,100.223 510.914,117.69 " fill="none" id="MessageExchanger-&gt;NodeFinder" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="506.64,120.895,516.24,118.695,510.64,117.895,511.44,112.295,506.64,120.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[444750ee6536af889db2fc25d9d2eca3]
+link MessageExchanger to PublishMessageStorage--><path d="M648.719,61.196 C694.844,103.195 786.088,186.279 834.534,230.393 " fill="none" id="MessageExchanger-&gt;PublishMessageStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="838.232,233.76,834.2695,224.7434,834.5346,230.3941,828.884,230.6592,838.232,233.76" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[18cb28326cb698e1b26554a8c53fa143]
+link MessageExchanger to WantMessageStorage--><path d="M625.547,61.196 C633.698,102.69 649.726,184.287 658.467,228.785 " fill="none" id="MessageExchanger-&gt;WantMessageStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="659.444,233.76,661.633,224.1575,658.4796,228.8539,653.7832,225.7005,659.444,233.76" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[28ffec00b0ec8609499a0753858377ec]
+link NodeFinder to ConnectionController--><path d="M472.5,174.245 C472.5,190.496 472.5,211.579 472.5,228.714 " fill="none" id="NodeFinder-&gt;ConnectionController" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="472.5,233.895,476.5,224.895,472.5,228.895,468.5,224.895,472.5,233.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[81ca0fd1dcf84a2cd2afabd571f2d350]
+link NodeFinder to PublishMessageStorage--><path d="M519.634,161.779 C582.393,179.46 694.744,211.112 774.564,233.599 " fill="none" id="NodeFinder-&gt;PublishMessageStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="779.774,235.067,772.1957,228.7766,774.9613,233.7113,770.0266,236.477,779.774,235.067" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b1325bdd4861e358981c4a7d2aecb9b2]
+link NodeFinder to WantMessageStorage--><path d="M517.031,174.245 C546.595,191.336 585.405,213.773 615.79,231.34 " fill="none" id="NodeFinder-&gt;WantMessageStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="620.21,233.895,614.419,225.9286,615.8809,231.3933,610.4162,232.8552,620.21,233.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ef1f1d0c83381d1e0522f9d220976620]
+link NodeFinder to PublishContentStorage--><path d="M427.273,174.245 C397.247,191.336 357.83,213.773 326.971,231.34 " fill="none" id="NodeFinder-&gt;PublishContentStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="322.482,233.895,332.2821,232.9166,326.8267,231.4205,328.3229,225.965,322.482,233.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1e0e02f3ad1043b3ad4657c844b8b985]
+link NodeFinder to WantContentStorage--><path d="M425.457,161.889 C360.83,180.283 243.605,213.647 164.41,236.187 " fill="none" id="NodeFinder-&gt;WantContentStorage" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="159.25,237.656,169.0012,239.0396,164.059,236.2873,166.8113,231.3451,159.25,237.656" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f869c1789246450671118e52dd9801a5]
+link PublishMessageStorage to ObjectStore--><path d="M779.596,285.859 C701.268,307.8151 588.643,339.384 523.18,357.7337 " fill="none" id="PublishMessageStorage-&gt;ObjectStore" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="518.161,359.1406,527.9067,360.5621,522.9753,357.7906,525.7468,352.8592,518.161,359.1406" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c62c47a28d2f97667b02225f653a67a3]
+link WantMessageStorage to ObjectStore--><path d="M619.505,287.245 C589.633,304.3364 550.418,326.7735 519.717,344.3398 " fill="none" id="WantMessageStorage-&gt;ObjectStore" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="515.251,346.895,525.0492,345.8977,519.5909,344.4121,521.0766,338.9538,515.251,346.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6ae3d99ffd4d47c5e0c9756f96876181]
+link PublishContentStorage to ObjectStore--><path d="M322.263,287.245 C351.981,304.3364 390.993,326.7735 421.537,344.3398 " fill="none" id="PublishContentStorage-&gt;ObjectStore" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="425.98,346.895,420.1726,338.9405,421.6457,344.4022,416.1841,345.8753,425.98,346.895" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[53bf585a33a4895d948a5aa19e08e71f]
+link WantContentStorage to ObjectStore--><path d="M159.156,283.43 C235.567,305.2899 350.881,338.2792 417.628,357.3743 " fill="none" id="WantContentStorage-&gt;ObjectStore" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="422.744,358.8379,415.1919,352.5161,417.937,357.4622,412.9908,360.2073,422.744,358.8379" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0f7e9f592e2e4eb8709b5c6ce6b53daf]
+@startuml
+skinparam rectangle<<behavior>> {
+	roundCorner 25
+}
+sprite $component jar:archimate/component
+
+rectangle ContentExchanger <<$component>><<behavior>>
+rectangle MessageExchanger <<$component>><<behavior>>
+rectangle NodeFinder <<$component>><<behavior>>
+rectangle PublishContentStorage <<$component>><<behavior>>
+rectangle WantContentStorage <<$component>><<behavior>>
+rectangle PublishMessageStorage <<$component>><<behavior>>
+rectangle WantMessageStorage <<$component>><<behavior>>
+
+rectangle ConnectionController <<$component>><<behavior>>
+rectangle ObjectStore <<$component>><<behavior>>
+
+ContentExchanger -down-> NodeFinder
+ContentExchanger -down-> ConnectionController
+ContentExchanger -down-> PublishContentStorage
+ContentExchanger -down-> WantContentStorage
+
+MessageExchanger -down-> ConnectionController
+MessageExchanger -down-> NodeFinder
+MessageExchanger -down-> PublishMessageStorage
+MessageExchanger -down-> WantMessageStorage
+
+NodeFinder -down-> ConnectionController
+NodeFinder -down-> PublishMessageStorage
+NodeFinder -down-> WantMessageStorage
+NodeFinder -down-> PublishContentStorage
+NodeFinder -down-> WantContentStorage
+
+PublishMessageStorage -down-> ObjectStore
+WantMessageStorage -down-> ObjectStore
+PublishContentStorage -down-> ObjectStore
+WantContentStorage -down-> ObjectStore
+
+@enduml
+
+PlantUML version 1.2020.10(Sun May 17 18:35:57 JST 2020)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_231-b11
+Operating System: Windows 10
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>
