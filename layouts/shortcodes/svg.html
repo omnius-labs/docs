@@ -1,2 +1,3 @@
-{{$svg := .Get 0}}
-{{ $svg | readFile | safeHTML }}
+{{ $fileName := .Get 0 }}
+{{ $filePath := path.Join $.Page.Dir $fileName }}
+{{ $filePath | readFile | safeHTML }}

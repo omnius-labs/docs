@@ -7,4 +7,4 @@ weight: 2
 
 ## Service
 
-{{< svg "content/projects/xeus/basic-design/service.svg" >}}
+{{< svg "service.svg" >}}
