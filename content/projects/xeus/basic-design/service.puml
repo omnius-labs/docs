@@ -13,7 +13,6 @@ rectangle PublishMessageStorage <<$component>><<behavior>>
 rectangle WantMessageStorage <<$component>><<behavior>>
 
 rectangle ConnectionController <<$component>><<behavior>>
-rectangle ObjectStore <<$component>><<behavior>>
 
 ContentExchanger -down-> NodeFinder
 ContentExchanger -down-> ConnectionController
@@ -30,10 +29,5 @@ NodeFinder -down-> PublishMessageStorage
 NodeFinder -down-> WantMessageStorage
 NodeFinder -down-> PublishContentStorage
 NodeFinder -down-> WantContentStorage
-
-PublishMessageStorage -down-> ObjectStore
-WantMessageStorage -down-> ObjectStore
-PublishContentStorage -down-> ObjectStore
-WantContentStorage -down-> ObjectStore
 
 @enduml
