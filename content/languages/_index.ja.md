@@ -1,6 +1,6 @@
 ---
 title: "Languages"
-weight: 2
+weight: 1
 ---
 
 - [English](/en)
