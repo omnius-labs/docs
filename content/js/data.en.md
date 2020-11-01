@@ -1,3 +1,3 @@
 ---
-url: "en/js/data.js"
+url: "js/data.js"
 ---

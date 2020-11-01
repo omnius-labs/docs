@@ -14,9 +14,9 @@ Lxnaはffmpegを用いて動画のサムネイルを生成します。
 
 scoopが未インストールの場合、下記コマンドをPowerShellで実行し、scoopをインストールします。
 
-```sh
+{{< highlight powershell "linenos=inline, linenostart=1" >}}
 iwr -useb get.scoop.sh | iex
-```
+{{< /highlight >}}
 
 参考: https://github.com/lukesampson/scoop
 
@@ -24,6 +24,6 @@ iwr -useb get.scoop.sh | iex
 
 下記コマンドをPowerShellで実行し、ffmpegをインストールします。
 
-```sh
+{{< highlight powershell "linenos=inline, linenostart=1" >}}
 scoop install ffmpeg
-```
+{{< /highlight >}}

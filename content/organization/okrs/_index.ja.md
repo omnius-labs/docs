@@ -7,7 +7,8 @@ weight: 1
 
 以下のフォーマットで記述する
 
-```markdown
+
+{{< highlight markdown >}}
 - Objective
   - Key Result (Confidence) -> Outcome
-```
+{{< /highlight >}}
