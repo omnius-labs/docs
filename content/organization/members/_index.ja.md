@@ -1,4 +1,4 @@
 ---
 title: "Members"
-weight: 4
+weight: 1
 ---
