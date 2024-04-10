@@ -1,4 +1,7 @@
 {
-  "linux": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.7/lxna-linux-x64-v0.0.7.zip",
-  "win": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.7/lxna-win-x64-v0.0.7.zip"
+  "urls": {
+    "linux": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.7/lxna-linux-x64-v0.0.7.zip",
+    "win": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.7/lxna-win-x64-v0.0.7.zip"
+  },
+  "version": "0.0.8"
 }
