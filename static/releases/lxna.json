@@ -1,4 +1,8 @@
 {
+  "download_urls": {
+    "linux": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.8/lxna-linux-x64-v0.0.8.zip",
+    "win": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.8/lxna-win-x64-v0.0.8.zip"
+  },
   "urls": {
     "linux": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.8/lxna-linux-x64-v0.0.8.zip",
     "win": "https://github.com/omnius-labs/lxna-cs/releases/download/v0.0.8/lxna-win-x64-v0.0.8.zip"
