@@ -23,7 +23,7 @@ title = "Omnius Labs"
 [languages.ja.params]
 dateFormat = "2006年01月02日"
 
-[Params]
+[params]
 # Source Code repository section
 description = ""
 github_repository = "https://github.com/omnius-labs"

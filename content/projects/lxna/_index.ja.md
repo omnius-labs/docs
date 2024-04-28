@@ -5,10 +5,15 @@ weight: 2
 
 ## Summary
 
+- https://github.com/omnius-labs/lxna-cs/releases
 - ファイルマネージャー (デスクトップアプリ)
-- 個人のPCで動作する想定
 - オープンソース
+- 個人のPCで動作する想定
 - 主に、動画と画像を管理するツールとなることを目指す
+
+## Challenges
+
+- アーカイブ形式ファイルも透過的にフォルダとして開きたい
 
 ## Features
 
