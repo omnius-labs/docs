@@ -6,8 +6,8 @@ weight: 3
 ## Summary
 
 - https://opxs-dev.omnius-labs.com/
-- オープンソース
 - 何でもありのWebサービス
+- オープンソース
 - 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
 
 ## Challenges
