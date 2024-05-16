@@ -3,6 +3,8 @@ title: "Lyrise"
 weight: 1
 ---
 
+# Lyrise
+
 ## Links
 
 - Docs: https://lyrise.docs.omnius-labs.com/
