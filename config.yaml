@@ -20,6 +20,7 @@ markup:
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+defaultContentLanguage: "ja"
 languages:
   ja:
     languageName: 日本語
