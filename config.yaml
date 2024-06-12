@@ -39,15 +39,26 @@ languages:
     contentDir: content.en
     weight: 2
 
-# menu:
-#   # before: []
-#   after:
-#     - name: "Github"
-#       url: "https://github.com/alex-shpak/hugo-book"
-#       weight: 10
-#     - name: "Hugo Themes"
-#       url: "https://themes.gohugo.io/themes/hugo-book/"
-#       weight: 20
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+      - '^(dart-)?sass(-embedded)?$'
+      - '^go$'
+      - '^npx$'
+      - '^postcss$'
+      - '^asciidoctor$'
+    osEnv:
+      - '(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$'
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+  http:
+    methods:
+      - '(?i)GET|POST'
+    urls:
+      - '.*'
 
 params:
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -121,24 +132,3 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
-
-security:
-  enableInlineShortcodes: false
-  exec:
-    allow:
-      - '^(dart-)?sass(-embedded)?$'
-      - '^go$'
-      - '^npx$'
-      - '^postcss$'
-      - '^asciidoctor$'
-    osEnv:
-      - '(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$'
-  funcs:
-    getenv:
-      - '^HUGO_'
-      - '^CI$'
-  http:
-    methods:
-      - '(?i)GET|POST'
-    urls:
-      - '.*'
