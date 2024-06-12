@@ -1,6 +1,6 @@
 FROM golang as hugo-builder
 
-RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+RUN CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.127.0
 
 FROM asciidoctor/docker-asciidoctor
 
