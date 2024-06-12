@@ -1,0 +1,40 @@
+@startuml image-convert
+
+participant Browser as browser
+participant api
+participant batch
+participant S3 as s3
+participant SNS as sns
+database DB as db
+
+browser -> api : request upload url
+api -> db : insert job
+api -> api : gen upload url
+api --> browser : upload url
+browser -> s3 : post file to upload url
+s3 -> batch : send completed event
+batch -> s3 : request uploaded file
+s3 --> batch : uploaded file
+batch -> batch : convert file
+batch -> s3 : upload converted file
+batch -> db : update job
+batch -> sns : push message
+
+par success pull message
+    sns --> api : pull message
+    api -> db : read job
+    db --> api : job
+else polling
+    loop job is not completed
+        api -> db : read job
+        db --> api : job
+    end
+end
+
+api -> api : gen converted file url
+api --> browser : converted file url
+
+browser -> s3 : request converted file
+s3 --> browser : converted file
+
+@enduml

@@ -1,6 +1,7 @@
 ---
 title: "Axus"
 weight: 1
+bookCollapseSection: true
 ---
 
 # Axus
@@ -24,3 +25,4 @@ weight: 1
 ## Links
 
 - https://github.com/omnius-labs/axus-daemon-rs
+- https://github.com/omnius-labs/axus-ui-desktop-cs

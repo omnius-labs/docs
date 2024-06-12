@@ -15,6 +15,14 @@ markup:
       unsafe: true
   tableOfContents:
     startLevel: 1
+  asciidocext:
+    extensions:
+      - asciidoctor-html5s
+      - asciidoctor-diagram
+    workingFolderCurrent: true
+    trace: true
+    attributes:
+      my-base-url: 'https://docs.omnius-labs.com'
 
 # Multi-lingual mode config
 # There are different options to translate files
@@ -111,3 +119,12 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
+
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass(-embedded)?$'
+      - '^go$'
+      - '^npx$'
+      - '^postcss$'
+      - '^asciidoctor$'

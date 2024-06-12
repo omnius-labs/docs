@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'asciidoctor'
+gem 'json'
+gem 'asciidoctor-html5s'
+gem 'asciidoctor-diagram'

@@ -1,6 +1,7 @@
 ---
 title: "Pewo"
 weight: 4
+bookCollapseSection: true
 ---
 
 # Pewo

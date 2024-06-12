@@ -1,0 +1,29 @@
+---
+title: "image-convert"
+weight: 1
+bookCollapseSection: true
+---
+
+== 画像変換
+
+=== 概要
+
+- 画像を別の形式の画像に変換する
+- WebSocketを用いる
+
+=== 処理フロー
+
+1. APIがS3の署名付きUploadリンクを発行
+2. ブラウザはUploadリンクにファイルをPOSTする
+3. S3のイベント経由でLambda起動
+4. Lambdaで変換処理後S3にファイルを配置
+5. SNSからメッセージを受信 or 定期監視しているDBのステータス変更を検知
+6. APIがS3の署名付きDownloadリンクを発行
+7. ブラウザがS3のファイルをダウンロード
+
+=== シーケンス図
+
+[plantuml]
+----
+include::sequence.puml[]
+----

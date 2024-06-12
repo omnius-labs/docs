@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["lyrise", "Omnius"]
+  "cSpell.words": ["lyrise", "Omnius"],
+  "asciidoc.antora.enableAntoraSupport": true
 }

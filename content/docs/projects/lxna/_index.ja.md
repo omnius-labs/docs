@@ -1,6 +1,7 @@
 ---
 title: "Lxna"
 weight: 2
+bookCollapseSection: true
 ---
 
 # Lxna
