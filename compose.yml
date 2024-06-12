@@ -1,0 +1,9 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"

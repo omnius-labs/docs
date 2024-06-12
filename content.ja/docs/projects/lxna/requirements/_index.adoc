@@ -1,0 +1,11 @@
+---
+title: "Requirements"
+weight: 1
+---
+
+== Requirements
+
+[plantuml]
+----
+include::requirements.puml[]
+----

@@ -1,7 +1,6 @@
 ---
 title: "image-convert"
 weight: 1
-bookCollapseSection: true
 ---
 
 == 画像変換

@@ -1,7 +1,9 @@
 ---
 title: "FAQ"
-weight: 2
+weight: 3
 ---
+
+# FAQ
 
 ## UI scaling is wrong on Linux
 

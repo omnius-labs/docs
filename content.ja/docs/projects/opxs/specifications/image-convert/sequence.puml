@@ -1,4 +1,4 @@
-@startuml image-convert
+@startuml sequence
 
 participant Browser as browser
 participant api

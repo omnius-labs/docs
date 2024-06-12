@@ -32,9 +32,11 @@ defaultContentLanguage: "ja"
 languages:
   ja:
     languageName: 日本語
+    contentDir: content.ja
     weight: 1
   en:
-    language2ame: English
+    languageName: English
+    contentDir: content.en
     weight: 2
 
 # menu:
@@ -121,6 +123,7 @@ params:
   BookTranslatedOnly: false
 
 security:
+  enableInlineShortcodes: false
   exec:
     allow:
       - '^(dart-)?sass(-embedded)?$'
@@ -128,3 +131,14 @@ security:
       - '^npx$'
       - '^postcss$'
       - '^asciidoctor$'
+    osEnv:
+      - '(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$'
+  funcs:
+    getenv:
+      - '^HUGO_'
+      - '^CI$'
+  http:
+    methods:
+      - '(?i)GET|POST'
+    urls:
+      - '.*'
