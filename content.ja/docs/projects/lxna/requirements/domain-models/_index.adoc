@@ -1,9 +1,11 @@
 ---
-title: "Models"
+title: "Domain Models"
 weight: 1
 ---
 
-== Models
+== 概要
+
+== マインドマップ
 
 [plantuml]
 ----

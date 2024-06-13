@@ -3,8 +3,6 @@ title: "FAQ"
 weight: 3
 ---
 
-# FAQ
-
 ## UI scaling is wrong on Linux
 
 You need to set the AVALONIA_SCREEN_SCALE_FACTORS environment variable.

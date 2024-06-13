@@ -4,8 +4,6 @@ weight: 2
 bookCollapseSection: true
 ---
 
-# Lxna
-
 ## Summary
 
 - https://github.com/omnius-labs/lxna-cs/releases

@@ -4,8 +4,6 @@ weight: 3
 bookCollapseSection: true
 ---
 
-# Opxs
-
 ## Summary
 
 - https://opxs-dev.omnius-labs.com/

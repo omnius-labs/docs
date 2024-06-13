@@ -1,8 +1,6 @@
 ---
-title: "Home"
+title: "Omnius Labs"
 ---
-
-# Omnius Labs
 
 ## Links
 

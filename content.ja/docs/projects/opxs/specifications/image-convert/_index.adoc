@@ -1,16 +1,14 @@
 ---
-title: "image-convert"
+title: "Image Convert"
 weight: 1
 ---
 
-== 画像変換
-
-=== 概要
+== 概要
 
 - 画像を別の形式の画像に変換する
 - WebSocketを用いる
 
-=== 処理フロー
+== 処理フロー
 
 1. APIがS3の署名付きUploadリンクを発行
 2. ブラウザはUploadリンクにファイルをPOSTする
@@ -20,7 +18,7 @@ weight: 1
 6. APIがS3の署名付きDownloadリンクを発行
 7. ブラウザがS3のファイルをダウンロード
 
-=== シーケンス図
+== シーケンス図
 
 [plantuml]
 ----

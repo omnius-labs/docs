@@ -4,8 +4,6 @@ weight: 4
 bookCollapseSection: true
 ---
 
-# Pewo
-
 ## Summary
 
 - ファイルマネージャー (スマホアプリ)

@@ -1,15 +1,13 @@
 ---
-title: "migration"
+title: "Migration"
 weight: 1
 ---
 
-== マイグレーション
-
-=== 概要
+== 概要
 
 api起動時にマイグレーションを実行する
 
-=== シーケンス図
+== シーケンス図
 
 [plantuml]
 ----

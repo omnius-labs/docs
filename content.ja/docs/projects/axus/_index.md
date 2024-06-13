@@ -4,8 +4,6 @@ weight: 1
 bookCollapseSection: true
 ---
 
-# Axus
-
 ## Summary
 
 - ファイル交換アプリ
