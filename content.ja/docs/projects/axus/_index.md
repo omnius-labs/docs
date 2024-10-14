@@ -13,7 +13,7 @@ bookCollapseSection: true
 
 ## Challenges
 
-- Bittorrentに、信頼関係の階層(Web of Trust)を持ち込み、Magnet情報の検索をP2P上で実行させたい
+- Bittorrentに、信頼関係の階層(Web of Trust)を持ち込み、情報の検索をP2P上で実行させたい
 - プロトコルレベルで、オーバーレイネットワークを考慮した実装にしたい
 
 ## Features

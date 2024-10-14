@@ -19,7 +19,7 @@ bookCollapseSection: true
 ## Features
 
 - 画像フォーマット変換
-  - https://opxs-dev.omnius-labs.com/image/convert/
+  - https://opxs-dev.omnius-labs.com/services/image-converter
 
 ## Links
 
