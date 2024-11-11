@@ -20,4 +20,4 @@ bookCollapseSection: true
 
 ## Features
 
-- 開発中
+- 実装中

@@ -8,21 +8,13 @@ bookCollapseSection: true
 
 - https://opxs-dev.omnius-labs.com/
 - 何でもありのWebサービス
-- オープンソース
+- クローズドソース
 - 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
 
 ## Challenges
 
-- 認証周りの参考に出来そうな実装を作ること
-- バッチ処理の参考に出来そうな実装を作ること
+- 画像変換処理サービスを作る事
 
 ## Features
 
-- 画像フォーマット変換
-  - https://opxs-dev.omnius-labs.com/services/image-converter
-
-## Links
-
-- https://github.com/omnius-labs/opxs-apps-rs
-- https://github.com/omnius-labs/opxs-web-ts
-- https://github.com/omnius-labs/opxs-infra
+- 実装中
