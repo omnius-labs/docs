@@ -8,7 +8,7 @@ bookCollapseSection: true
 
 - https://opxs-dev.omnius-labs.com/
 - 何でもありのWebサービス
-- クローズドソース
+- オープンソース
 - 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
 
 ## Challenges
@@ -18,3 +18,8 @@ bookCollapseSection: true
 ## Features
 
 - 実装中
+
+## Links
+
+- https://github.com/omnius-labs/opxs-apps-rs
+- https://github.com/omnius-labs/opxs-web-ts
