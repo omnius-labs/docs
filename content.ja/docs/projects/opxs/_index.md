@@ -13,11 +13,11 @@ bookCollapseSection: true
 
 ## Challenges
 
-- 画像変換処理サービスを作る事
+- 画像メタデータ分析
 
 ## Features
 
-- 実装中
+- 画像変換サービス
 
 ## Links
 

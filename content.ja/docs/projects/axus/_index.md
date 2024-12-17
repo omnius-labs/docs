@@ -9,11 +9,11 @@ bookCollapseSection: true
 - ファイル交換アプリ
 - オープンソース
 - 個人のサーバーやPCで動作する想定
-- Bittorrentの代替となることを目指す
+- BitTorrentの代替となることを目指す
 
 ## Challenges
 
-- Bittorrentに、信頼関係の階層(Web of Trust)を持ち込み、情報の検索をP2P上で実行させたい
+- BitTorrentに、信頼関係の階層(Web of Trust)を持ち込み、情報の検索をP2P上で実行させたい
 - プロトコルレベルで、オーバーレイネットワークを考慮した実装にしたい
 
 ## Features
