@@ -1,7 +1,7 @@
 ---
 title: "Axus"
 weight: 1
-bookCollapseSection: true
+bookCollapseSection: false
 ---
 
 ## Summary

@@ -1,7 +1,7 @@
 ---
 title: "Opxs"
 weight: 3
-bookCollapseSection: true
+bookCollapseSection: false
 ---
 
 ## Summary

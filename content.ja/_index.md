@@ -1,5 +1,6 @@
 ---
 title: "Omnius Labs"
+bookCollapseSection: false
 ---
 
 ## Links
