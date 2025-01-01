@@ -4,7 +4,6 @@ participant Browser as browser
 participant api
 participant batch
 participant S3 as s3
-participant SNS as sns
 database DB as db
 
 browser -> api : request upload url
@@ -18,23 +17,17 @@ s3 --> batch : uploaded file
 batch -> batch : convert file
 batch -> s3 : upload converted file
 batch -> db : update job
-batch -> sns : push message
 
-par success pull message
-    sns --> api : pull message
+loop watch job
     api -> db : read job
     db --> api : job
-else polling
-    loop job is not completed
-        api -> db : read job
-        db --> api : job
+    par success pull message
+        api -> api : gen converted file url
+        api --> browser : converted file url
+
+        browser -> s3 : request converted file
+        s3 --> browser : converted file
     end
 end
-
-api -> api : gen converted file url
-api --> browser : converted file url
-
-browser -> s3 : request converted file
-s3 --> browser : converted file
 
 @enduml

@@ -7,8 +7,8 @@ bookCollapseSection: false
 ## Summary
 
 - https://opxs-dev.omnius-labs.com/
-- 何でもありのWebサービス
-- オープンソース
+- Webサービス
+- クローズドソース
 - 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
 
 ## Challenges
@@ -18,8 +18,3 @@ bookCollapseSection: false
 ## Features
 
 - 画像変換サービス
-
-## Links
-
-- https://github.com/omnius-labs/opxs-apps-rs
-- https://github.com/omnius-labs/opxs-web-ts
