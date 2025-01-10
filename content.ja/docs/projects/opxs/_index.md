@@ -1,13 +1,11 @@
 ---
 title: "Opxs"
-weight: 3
-bookCollapseSection: false
+weight: 2
 ---
 
 ## Summary
 
-- https://opxs-dev.omnius-labs.com/
-- Webサービス
+- Webサービス -> https://opxs-dev.omnius-labs.com/
 - クローズドソース
 - 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
 
