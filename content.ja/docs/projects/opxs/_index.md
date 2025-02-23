@@ -3,16 +3,18 @@ title: "Opxs"
 weight: 2
 ---
 
-## Summary
+## Goal
 
-- Webサービス -> https://opxs-dev.omnius-labs.com/
-- クローズドソース
-- 個人的に欲しいWebサービスを、バックエンドはRust、フロントエンドはNext.js+TypeScriptで作ることが目的
+- 個人的に欲しいWebサービスをできるだけ安価に提供すること。
+    - URL: https://opxs-dev.omnius-labs.com/
+    - クローズドソースで開発する
+    - バックエンドはRust、フロントエンドはNext.js+TypeScriptで作る。
 
-## Challenges
+## Why
 
-- 画像メタデータ分析
+- なぜ開発するのか
+    - クラウドを用いたWebサービス開発の概念実証のため。
 
 ## Features
 
-- 画像変換サービス
+- ファイル変換機能
