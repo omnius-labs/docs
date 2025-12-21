@@ -8,7 +8,7 @@ weight: 1
 - ファイル交換サービスを提供すること。
     - オープンソースで開発する。
     - 個人のサーバーやPCで動作させる。
-a
+
 ## Why
 
 - なぜ開発するのか
@@ -21,5 +21,4 @@ a
 
 ## Links
 
-- https://github.com/omnius-labs/axus-daemon-rs
-- https://github.com/omnius-labs/axus-ui-desktop-cs
+- https://github.com/omnius-labs/axus
