@@ -6,13 +6,15 @@
 
 ### 構成
 
-- `_index.md`: 一覧ページ。所属（`omnius-labs`、`lyrise`）ごとに見出しを分け、名前順に並べる。
+- `_index.md`: 一覧ページ。所属（`omnius-labs`、`lyrise`）ごとに見出しを分ける。
 - `<name>/_index.md`: プロダクトのページ。`<name>` は GitHub のリポジトリ名（kebab-case）と一致させる。所属が変わっても URL は変えない。
-- サイドバーの順序は `title` の名前順とする。`weight` は指定しない。
+- サイドバーの順序は各ページの `weight` で決める。一覧ページに並べた順と一致させる。
+- `weight` は 10 刻みにして、間にプロダクトを挿入できる余地を残す。
 
 ### 命名
 
-- `title` はリポジトリ名を単語に分けて先頭を大文字にする（例: `image-classifier` → `Image Classifier`）。
+- `title` はリポジトリ名をそのまま使う（例: `image-classifier` → `image-classifier`）。語を分けたり大文字にしたりしない。
+- omnius-labs のプロダクトは製品名として扱い、先頭を大文字にする（例: `axus` → `Axus`）。
 
 ### ページの章立て
 
@@ -40,16 +42,15 @@ Downloads 章は `data/releases.json` から自動で描画されるので、手
 ### 置き場所
 
 - キー: `<product>/<tag>/<file>`
-- 公開 URL: `<params.downloadsBaseURL>/<product>/<tag>/<file>`
+- 公開 URL: `https://downloads.omnius-labs.org/<product>/<tag>/<file>`
 
 公開 URL の起点は `config.yaml` の `params.downloadsBaseURL` に置く。
 state に絶対 URL は持たせないので、配信先を変えるときはこの 1 行だけを直せばよい。
 
-現在は R2 の `r2.dev` サブドメイン（`https://pub-<hash>.r2.dev`）を使う暫定運用とする。
-Cloudflare は r2.dev にレート制限があり本番用途には推奨しないとしているため、
-独自ドメインを取得したら差し替える。
-カスタムドメインを使うには、そのドメインが R2 と同じ Cloudflare アカウントに
-ゾーンとして存在している必要がある。他社 DNS に置いたままでは Business プラン以上を要する。
+配信は、R2 バケットに接続したカスタムドメイン `downloads.omnius-labs.org` が担う。
+このドメインは Cloudflare Registrar で取得し、ゾーンを R2 と同じ Cloudflare アカウントで
+管理している。カスタムドメインを使うにはこの条件を満たす必要があり、
+ゾーンを他社 DNS に置いたままでは Business プラン以上を要する。
 
 ### 手順
 

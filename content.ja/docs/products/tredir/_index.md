@@ -1,5 +1,6 @@
 ---
-title: "Tredir"
+title: "tredir"
+weight: 90
 ---
 
 | 項目 | 内容 |

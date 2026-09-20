@@ -1,5 +1,6 @@
 ---
-title: "Hash Auditor"
+title: "hash-auditor"
+weight: 70
 ---
 
 | 項目 | 内容 |

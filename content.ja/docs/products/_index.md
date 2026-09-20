@@ -2,7 +2,7 @@
 title: "Products"
 ---
 
-Omnius Labs と lyrise が開発しているプロダクトの一覧です。
+omnius-labs と lyrise が開発しているプロダクトの一覧です。
 
 ## omnius-labs
 
@@ -10,17 +10,17 @@ Omnius Labs と lyrise が開発しているプロダクトの一覧です。
 | --- | --- |
 | [Axus](axus/) | ファイル交換サービス |
 | [Opxs](opxs/) | ファイル変換などの Web サービス |
-| [Pxna](pxna/) | 個人のファイルを PC やスマホで閲覧できるサービス |
+| [Pxna](pxna/) | 自宅サーバーのファイルを PC やスマホで閲覧できるサービス |
 
 ## lyrise
 
 | プロダクト | 概要 |
 | --- | --- |
-| [Duplex Sync](duplex-sync/) | TODO |
-| [Duplicate Finder](duplicate-finder/) | TODO |
-| [Editable Move](editable-move/) | TODO |
-| [Fredir](fredir/) | TODO |
-| [Hash Auditor](hash-auditor/) | TODO |
-| [Image Classifier](image-classifier/) | TODO |
-| [Tredir](tredir/) | TODO |
-| [Uredir](uredir/) | TODO |
+| [duplex-sync](duplex-sync/) | TODO |
+| [duplicate-finder](duplicate-finder/) | TODO |
+| [editable-move](editable-move/) | TODO |
+| [hash-auditor](hash-auditor/) | TODO |
+| [image-classifier](image-classifier/) | TODO |
+| [tredir](tredir/) | TODO |
+| [uredir](uredir/) | TODO |
+| [fredir](fredir/) | TODO |

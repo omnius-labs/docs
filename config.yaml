@@ -61,7 +61,7 @@ params:
   # 現在は R2 の r2.dev サブドメインを使う暫定運用。カスタムドメインを
   # 用意したら、ここを差し替えるだけで全バージョンのリンクが切り替わる。
   # 値は R2 のバケット > Settings > Public access で確認する。
-  downloadsBaseURL: "https://pub-8b556f7c7c1c45558cb340b84833287a.r2.dev"
+  downloadsBaseURL: "https://downloads.omnius-labs.org"
 
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences

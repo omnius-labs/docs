@@ -1,5 +1,6 @@
 ---
-title: "Duplex Sync"
+title: "duplex-sync"
+weight: 40
 ---
 
 | 項目 | 内容 |

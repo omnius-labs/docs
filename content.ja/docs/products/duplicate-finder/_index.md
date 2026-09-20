@@ -1,5 +1,6 @@
 ---
-title: "Duplicate Finder"
+title: "duplicate-finder"
+weight: 50
 ---
 
 | 項目 | 内容 |

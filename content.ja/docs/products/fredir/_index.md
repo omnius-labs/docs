@@ -1,5 +1,6 @@
 ---
-title: "Fredir"
+title: "fredir"
+weight: 110
 ---
 
 | 項目 | 内容 |

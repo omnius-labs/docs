@@ -1,5 +1,6 @@
 ---
-title: "Uredir"
+title: "uredir"
+weight: 100
 ---
 
 | 項目 | 内容 |

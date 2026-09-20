@@ -1,5 +1,6 @@
 ---
-title: "Image Classifier"
+title: "image-classifier"
+weight: 80
 ---
 
 | 項目 | 内容 |

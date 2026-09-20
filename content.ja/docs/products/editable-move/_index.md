@@ -1,5 +1,6 @@
 ---
-title: "Editable Move"
+title: "editable-move"
+weight: 60
 ---
 
 | 項目 | 内容 |
