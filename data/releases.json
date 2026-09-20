@@ -1,0 +1,55 @@
+{
+  "duplex-sync": [
+    {
+      "assets": [
+        {
+          "key": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-aarch64-apple-darwin.tar.gz",
+          "name": "duplex-sync-v0.1.4-aarch64-apple-darwin.tar.gz",
+          "path": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-aarch64-apple-darwin.tar.gz",
+          "sha256": "4c60cbba3724aa4f8e124b0ad1b57c6de57d6b05ec6a48d75588bf861216974e",
+          "size": 10824692
+        },
+        {
+          "key": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-aarch64-unknown-linux-gnu.tar.gz",
+          "name": "duplex-sync-v0.1.4-aarch64-unknown-linux-gnu.tar.gz",
+          "path": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-aarch64-unknown-linux-gnu.tar.gz",
+          "sha256": "1e2bb32e9e8f472b63769a68f54d702546e7d83fa028f500b8b5e4af3b0511da",
+          "size": 11144539
+        },
+        {
+          "key": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-x86_64-unknown-linux-gnu.tar.gz",
+          "name": "duplex-sync-v0.1.4-x86_64-unknown-linux-gnu.tar.gz",
+          "path": "duplex-sync/v0.1.4/duplex-sync-v0.1.4-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "5aea8fd472544271db39fc8c32a3ddb09ee1a7f6db0685155b736cad1b02fd24",
+          "size": 11262768
+        }
+      ],
+      "prerelease": false,
+      "published_at": "2026-09-10T08:52:57Z",
+      "tag": "v0.1.4"
+    }
+  ],
+  "image-classifier": [
+    {
+      "assets": [
+        {
+          "key": "image-classifier/v0.0.4/image-classifier-linux-x64-v0.0.4.zip",
+          "name": "image-classifier-linux-x64-v0.0.4.zip",
+          "path": "image-classifier/v0.0.4/image-classifier-linux-x64-v0.0.4.zip",
+          "sha256": "e92a05423f7a501ea077d1a34ebd163308279b780d456e166a7c258c4054360d",
+          "size": 44041380
+        },
+        {
+          "key": "image-classifier/v0.0.4/image-classifier-win-x64-v0.0.4.zip",
+          "name": "image-classifier-win-x64-v0.0.4.zip",
+          "path": "image-classifier/v0.0.4/image-classifier-win-x64-v0.0.4.zip",
+          "sha256": "6716a093b60dd69a15fd24db91b4a45a5f809af50b3d0f05cad3032c59462b01",
+          "size": 45663636
+        }
+      ],
+      "prerelease": false,
+      "published_at": "2024-05-25T12:43:37Z",
+      "tag": "v0.0.4"
+    }
+  ]
+}

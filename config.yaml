@@ -6,7 +6,7 @@ theme: hugo-book
 
 # Book configuration
 disablePathToLower: true
-enableGitInfo: true
+enableGitInfo: false
 
 # Needed for mermaid/katex shortcodes
 markup:
@@ -22,7 +22,7 @@ markup:
     workingFolderCurrent: true
     trace: true
     attributes:
-      my-base-url: 'https://docs.omnius-labs.com'
+      my-base-url: "https://docs.omnius-labs.com"
 
 # Multi-lingual mode config
 # There are different options to translate files
@@ -31,36 +31,38 @@ markup:
 defaultContentLanguage: "ja"
 languages:
   ja:
-    languageName: 日本語
+    label: 日本語
     contentDir: content.ja
     weight: 1
-  en:
-    languageName: English
-    contentDir: content.en
-    weight: 2
 
 security:
   enableInlineShortcodes: false
   exec:
     allow:
-      - '^(dart-)?sass(-embedded)?$'
-      - '^go$'
-      - '^npx$'
-      - '^postcss$'
-      - '^asciidoctor$'
+      - "^(dart-)?sass(-embedded)?$"
+      - "^go$"
+      - "^npx$"
+      - "^postcss$"
+      - "^asciidoctor$"
     osEnv:
       - '(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$'
   funcs:
     getenv:
-      - '^HUGO_'
-      - '^CI$'
+      - "^HUGO_"
+      - "^CI$"
   http:
     methods:
-      - '(?i)GET|POST'
+      - "(?i)GET|POST"
     urls:
-      - '.*'
+      - ".*"
 
 params:
+  # 配布物の公開 URL の起点。R2 バケットの公開設定に合わせる。
+  # 現在は R2 の r2.dev サブドメインを使う暫定運用。カスタムドメインを
+  # 用意したら、ここを差し替えるだけで全バージョンのリンクが切り替わる。
+  # 値は R2 のバケット > Settings > Public access で確認する。
+  downloadsBaseURL: "https://pub-8b556f7c7c1c45558cb340b84833287a.r2.dev"
+
   # (Optional, default light) Sets color theme: light, dark or auto.
   # Theme 'auto' switches between dark and light modes based on browser/os preferences
   BookTheme: "dark"
@@ -89,7 +91,8 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/omnius-labs/docs
+  # docs repo は private のため無効化している
+  # BookRepo: https://github.com/omnius-labs/docs
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -101,7 +104,7 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath: tree/main
+  # BookEditPath: tree/main
 
   # Configure the date format used on the pages
   # - In git information

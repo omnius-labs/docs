@@ -2,3 +2,12 @@
 /public
 /resources
 .hugo_build.lock
+
+## python
+__pycache__/
+
+# direnv
+/.envrc
+
+## playwright
+.playwright-cli

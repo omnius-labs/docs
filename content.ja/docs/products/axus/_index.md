@@ -1,7 +1,13 @@
 ---
 title: "Axus"
-weight: 1
 ---
+
+| 項目 | 内容 |
+| --- | --- |
+| 種別 | ファイル交換サービス |
+| リポジトリ | [omnius-labs/axus](https://github.com/omnius-labs/axus) |
+| 公開範囲 | パブリック（オープンソース） |
+| ステータス | 開発中 |
 
 ## Goal
 
@@ -18,7 +24,3 @@ weight: 1
 ## Features
 
 - 実装中。
-
-## Links
-
-- https://github.com/omnius-labs/axus

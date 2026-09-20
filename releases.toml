@@ -1,0 +1,18 @@
+# sync-releases.py の対象プロダクト。
+#
+# name       content.ja/docs/products/<name>/ と R2 のキー接頭辞に使う。
+# repo       GitHub の owner/repo。
+# assets     R2 にミラーする資産を選ぶグロブ。一致しない資産は無視する。
+# prerelease true にすると prerelease も対象にする。draft は常に対象外。
+
+[[products]]
+name = "image-classifier"
+repo = "lyrise/image-classifier"
+assets = "*.zip"
+prerelease = false
+
+[[products]]
+name = "duplex-sync"
+repo = "lyrise/duplex-sync"
+assets = "*.tar.gz"
+prerelease = false

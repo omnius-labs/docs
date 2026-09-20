@@ -1,7 +1,13 @@
 ---
 title: "Opxs"
-weight: 2
 ---
+
+| 項目 | 内容 |
+| --- | --- |
+| 種別 | Web サービス |
+| リポジトリ | [omnius-labs/opxs](https://github.com/omnius-labs/opxs) |
+| 公開範囲 | プライベート（クローズドソース） |
+| ステータス | 稼働中（<https://opxs-dev.omnius-labs.com/>） |
 
 ## Goal
 

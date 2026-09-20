@@ -1,0 +1,14 @@
+# scripts/sync-releases.py が使う認証情報。
+# このファイルを .envrc にコピーして値を埋める。.envrc は commit しない。
+#
+#   cp .envrc.example .envrc && direnv allow
+
+# アップロード先の R2 バケット名
+export R2_BUCKET=
+
+# Cloudflare のアカウント ID
+export R2_ACCOUNT_ID=
+
+# R2 の API トークン (S3 互換)
+export AWS_ACCESS_KEY_ID=
+export AWS_SECRET_ACCESS_KEY=

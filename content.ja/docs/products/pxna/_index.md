@@ -1,7 +1,13 @@
 ---
 title: "Pxna"
-weight: 3
 ---
+
+| 項目 | 内容 |
+| --- | --- |
+| 種別 | ファイル閲覧サービス |
+| リポジトリ | [omnius-labs/pxna](https://github.com/omnius-labs/pxna) |
+| 公開範囲 | プライベート（クローズドソース） |
+| ステータス | 開発中 |
 
 ## Goal
 

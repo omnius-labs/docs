@@ -1,0 +1,99 @@
+{{- /* data/releases.json から Downloads 表を描画する。プロダクト名は引数、
+       省略時はページのディレクトリ名から取る。記録が無ければ何も出力しない。
+       公開 URL は params.downloadsBaseURL と記録中の path を繋いで作るので、
+       配信ドメインを変えるときは config.yaml の 1 行だけを直せばよい。
+       SHA256 は列を圧迫するので先頭 8 文字だけを出し、クリックで全体をコピーする。 */ -}}
+{{- $product := or (.Get 0) (path.Base .Page.File.Dir) -}}
+{{- $releases := index (default dict hugo.Data.releases) $product -}}
+{{- with $releases -}}
+{{- $base := site.Params.downloadsBaseURL -}}
+{{- if not $base }}{{ errorf "params.downloadsBaseURL が設定されていません (%s の Downloads 表)" $product }}{{ end -}}
+{{- $base = strings.TrimSuffix "/" $base -}}
+<div style="overflow-x: auto;">
+<table>
+  <thead>
+    <tr>
+      <th>公開日</th>
+      <th>バージョン</th>
+      <th>ファイル</th>
+      <th>サイズ</th>
+      <th>SHA256</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{- range . }}
+    {{- $tag := .tag }}
+    {{- $date := dateFormat "2006-01-02" .published_at }}
+    {{- $count := len .assets }}
+    {{- range $i, $a := .assets }}
+    {{- $size := int $a.size }}
+    {{- $human := printf "%d B" $size }}
+    {{- if ge $size 1048576 }}{{ $human = printf "%.1f MiB" (div $size 1048576.0) }}
+    {{- else if ge $size 1024 }}{{ $human = printf "%.1f KiB" (div $size 1024.0) }}{{ end }}
+    <tr>
+      {{- if eq $i 0 }}
+      <td rowspan="{{ $count }}" style="vertical-align: top; white-space: nowrap;">{{ $date }}</td>
+      <td rowspan="{{ $count }}" style="vertical-align: top;">{{ $tag }}</td>
+      {{- end }}
+      <td><a href="{{ $base }}/{{ $a.path }}">{{ $a.name }}</a></td>
+      <td style="white-space: nowrap;">{{ $human }}</td>
+      <td><code data-sha256="{{ $a.sha256 }}" role="button" tabindex="0"
+          title="クリックで SHA256 をコピー"
+          style="cursor: pointer; white-space: nowrap;">{{ substr $a.sha256 0 8 }}…</code></td>
+    </tr>
+    {{- end }}
+    {{- end }}
+  </tbody>
+</table>
+</div>
+<script>
+(function () {
+  function copy(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      return navigator.clipboard.writeText(text);
+    }
+    // http 経由など、Clipboard API が使えない文脈向けの代替。
+    var area = document.createElement("textarea");
+    area.value = text;
+    area.style.position = "fixed";
+    area.style.opacity = "0";
+    document.body.appendChild(area);
+    area.select();
+    var ok = document.execCommand("copy");
+    document.body.removeChild(area);
+    return ok ? Promise.resolve() : Promise.reject();
+  }
+
+  function flash(el, message) {
+    if (el.dataset.busy) return;
+    el.dataset.busy = "1";
+    var original = el.textContent;
+    el.textContent = message;
+    setTimeout(function () {
+      el.textContent = original;
+      delete el.dataset.busy;
+    }, 1200);
+  }
+
+  function activate(el) {
+    copy(el.dataset.sha256).then(
+      function () { flash(el, "コピーしました"); },
+      function () { flash(el, "コピーできません"); }
+    );
+  }
+
+  document.addEventListener("click", function (event) {
+    var el = event.target.closest("code[data-sha256]");
+    if (el) activate(el);
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    var el = event.target.closest("code[data-sha256]");
+    if (!el) return;
+    event.preventDefault();
+    activate(el);
+  });
+})();
+</script>
+{{- end -}}
