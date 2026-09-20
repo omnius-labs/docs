@@ -1,12 +1,12 @@
 ---
-title: "hash-auditor"
-weight: 70
+title: "fredir"
+weight: 80
 ---
 
 | 項目 | 内容 |
 | --- | --- |
 | 種別 | TODO |
-| リポジトリ | [lyrise/hash-auditor](https://github.com/lyrise/hash-auditor) |
+| リポジトリ | [lyrise/fredir](https://github.com/lyrise/fredir) |
 | 公開範囲 | TODO |
 | ステータス | TODO |
 

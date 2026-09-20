@@ -1,12 +1,12 @@
 ---
-title: "editable-move"
-weight: 60
+title: "uredir"
+weight: 70
 ---
 
 | 項目 | 内容 |
 | --- | --- |
 | 種別 | TODO |
-| リポジトリ | [lyrise/editable-move](https://github.com/lyrise/editable-move) |
+| リポジトリ | [lyrise/uredir](https://github.com/lyrise/uredir) |
 | 公開範囲 | TODO |
 | ステータス | TODO |
 

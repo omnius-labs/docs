@@ -1,6 +1,6 @@
 ---
 title: "image-classifier"
-weight: 80
+weight: 50
 ---
 
 | 項目 | 内容 |

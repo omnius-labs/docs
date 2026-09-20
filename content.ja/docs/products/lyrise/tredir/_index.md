@@ -1,6 +1,6 @@
 ---
 title: "tredir"
-weight: 90
+weight: 60
 ---
 
 | 項目 | 内容 |

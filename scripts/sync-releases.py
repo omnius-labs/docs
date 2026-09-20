@@ -268,11 +268,19 @@ def upsert_asset(
 # --- ドキュメント -------------------------------------------------------
 
 
+def find_product_page(product: str) -> Path:
+    """製品ページを探す。ページは所属ごとの階層（products/<所属>/<name>/）にある。"""
+    pages = sorted(PRODUCTS_DIR.glob(f"*/{product}/_index.md"))
+    if not pages:
+        raise SyncError(f"製品ページがありません: {PRODUCTS_DIR}/<所属>/{product}/_index.md")
+    if len(pages) > 1:
+        raise SyncError(f"製品ページが複数あります: {', '.join(str(p) for p in pages)}")
+    return pages[0]
+
+
 def ensure_download_section(product: str) -> bool:
     """Downloads 章が無ければ、GUIDELINES の章順に従って挿入する。"""
-    path = PRODUCTS_DIR / product / "_index.md"
-    if not path.is_file():
-        raise SyncError(f"製品ページがありません: {path}")
+    path = find_product_page(product)
     text = path.read_text(encoding="utf-8")
     if SHORTCODE in text:
         return False

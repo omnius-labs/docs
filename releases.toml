@@ -1,6 +1,6 @@
 # sync-releases.py の対象プロダクト。
 #
-# name       content.ja/docs/products/<name>/ と R2 のキー接頭辞に使う。
+# name       content.ja/docs/products/<所属>/<name>/ のディレクトリ名と R2 のキー接頭辞に使う。
 # repo       GitHub の owner/repo。
 # assets     R2 にミラーする資産を選ぶグロブ。一致しない資産は無視する。
 # prerelease true にすると prerelease も対象にする。draft は常に対象外。

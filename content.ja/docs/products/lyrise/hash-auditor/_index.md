@@ -1,12 +1,12 @@
 ---
-title: "duplicate-finder"
-weight: 50
+title: "hash-auditor"
+weight: 40
 ---
 
 | 項目 | 内容 |
 | --- | --- |
 | 種別 | TODO |
-| リポジトリ | [lyrise/duplicate-finder](https://github.com/lyrise/duplicate-finder) |
+| リポジトリ | [lyrise/hash-auditor](https://github.com/lyrise/hash-auditor) |
 | 公開範囲 | TODO |
 | ステータス | TODO |
 

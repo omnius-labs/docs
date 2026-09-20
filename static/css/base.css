@@ -5,3 +5,8 @@
 .container {
     max-width: none;
 }
+
+/* テーブルの行ごとの縞模様は付けない（テーマの tr:nth-child(2n) を打ち消す） */
+.book-page .markdown table tr:nth-child(2n) {
+    background: transparent;
+}

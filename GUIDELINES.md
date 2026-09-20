@@ -2,14 +2,16 @@
 
 ## Products ページ
 
-`content.ja/docs/products/` に、プロダクトごとのページを置く。
+`content.ja/docs/products/` に、所属ごとの階層を作り、その下にプロダクトごとのページを置く。
 
 ### 構成
 
-- `_index.md`: 一覧ページ。所属（`omnius-labs`、`lyrise`）ごとに見出しを分ける。
-- `<name>/_index.md`: プロダクトのページ。`<name>` は GitHub のリポジトリ名（kebab-case）と一致させる。所属が変わっても URL は変えない。
-- サイドバーの順序は各ページの `weight` で決める。一覧ページに並べた順と一致させる。
-- `weight` は 10 刻みにして、間にプロダクトを挿入できる余地を残す。
+- `_index.md`: 全体の一覧ページ。所属ページへのリンクを並べる。
+- `<owner>/_index.md`: 所属（`omnius-labs`、`lyrise`）のページ。所属するプロダクトの一覧表を置く。`<owner>` は GitHub の owner 名と一致させる。
+- `<owner>/<name>/_index.md`: プロダクトのページ。`<name>` は GitHub のリポジトリ名（kebab-case）と一致させる。
+- 所属が変わったら、ページを移動する。URL も変わるので、その点は許容する。
+- サイドバーの順序は各ページの `weight` で決める。所属ページの表に並べた順と一致させる。
+- `weight` は所属の中で 10 刻みにして、間にプロダクトを挿入できる余地を残す。
 
 ### 命名
 
