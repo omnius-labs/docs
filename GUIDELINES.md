@@ -81,5 +81,6 @@ R2 へのアップロード、`data/releases.json` の更新、Downloads 章の�
 
 ## リポジトリ
 
-- この repo は private とする。サイトは全ページ公開で、公開範囲の制御は行わない。
-- private のため、hugo-book の「最終更新」「編集」リンクは無効にしている（`config.yaml` の `enableGitInfo`、`BookRepo`、`BookEditPath`）。
+- この repo は public とする。サイトは全ページ公開で、公開範囲の制御は行わない。
+- Netlify の無料プランは組織所有の private repo では継続的デプロイができない。private には戻さない。
+- hugo-book の「最終更新」「編集」リンクは無効にしている（`config.yaml` の `enableGitInfo`、`BookRepo`、`BookEditPath`）。
