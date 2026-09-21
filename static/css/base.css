@@ -1,12 +1,24 @@
 :root {
-    --body-background: #171717;
+  --body-background: #171717;
 }
 
 .container {
-    max-width: none;
+  max-width: none;
 }
 
 /* テーブルの行ごとの縞模様は付けない（テーマの tr:nth-child(2n) を打ち消す） */
 .book-page .markdown table tr:nth-child(2n) {
-    background: transparent;
+  background: transparent;
+}
+
+/* テーブルの幅を本文幅の 100% に揃える（テーマの display: block を table に戻す） */
+.book-page .markdown table {
+  display: table;
+  width: 100%;
+}
+
+/* 最終列以外は内容に必要な幅だけにして左へ詰め、余りは最終列に持たせる */
+.book-page .markdown table :is(th, td):not(:last-child) {
+  width: 1%;
+  white-space: nowrap;
 }

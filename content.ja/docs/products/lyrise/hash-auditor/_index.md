@@ -5,11 +5,9 @@ weight: 40
 
 | 項目 | 内容 |
 | --- | --- |
-| 種別 | TODO |
 | リポジトリ | [lyrise/hash-auditor](https://github.com/lyrise/hash-auditor) |
-| 公開範囲 | TODO |
-| ステータス | TODO |
+| 公開範囲 | Private |
 
 ## Goal
 
-- TODO
+- ファイルのハッシュ値の定期チェック

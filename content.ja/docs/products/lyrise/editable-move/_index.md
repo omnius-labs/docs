@@ -5,11 +5,9 @@ weight: 30
 
 | 項目 | 内容 |
 | --- | --- |
-| 種別 | TODO |
 | リポジトリ | [lyrise/editable-move](https://github.com/lyrise/editable-move) |
-| 公開範囲 | TODO |
-| ステータス | TODO |
+| 公開範囲 | Private |
 
 ## Goal
 
-- TODO
+- 一括編集可能なファイルの移動とリネーム

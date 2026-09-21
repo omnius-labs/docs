@@ -5,9 +5,8 @@ weight: 10
 
 | 項目 | 内容 |
 | --- | --- |
-| 種別 | ファイル交換サービス |
 | リポジトリ | [omnius-labs/axus](https://github.com/omnius-labs/axus) |
-| 公開範囲 | パブリック（オープンソース） |
+| 公開範囲 | Public |
 | ステータス | 開発中 |
 
 ## Goal
@@ -24,4 +23,4 @@ weight: 10
 
 ## Features
 
-- 実装中。
+- TODO

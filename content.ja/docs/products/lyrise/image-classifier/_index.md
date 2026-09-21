@@ -5,14 +5,12 @@ weight: 50
 
 | 項目 | 内容 |
 | --- | --- |
-| 種別 | TODO |
 | リポジトリ | [lyrise/image-classifier](https://github.com/lyrise/image-classifier) |
-| 公開範囲 | TODO |
-| ステータス | TODO |
+| 公開範囲 | Private |
 
 ## Goal
 
-- TODO
+- 画像の分類
 
 ## Downloads
 
