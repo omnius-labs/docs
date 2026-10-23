@@ -15,7 +15,7 @@
 
 ### 命名
 
-- `title` はリポジトリ名をそのまま使う（例: `image-classifier` → `image-classifier`）。語を分けたり大文字にしたりしない。
+- `title` はリポジトリ名をそのまま使う（例: `image-picker` → `image-picker`）。語を分けたり大文字にしたりしない。
 - omnius-labs のプロダクトは製品名として扱い、先頭を大文字にする（例: `axus` → `Axus`）。
 
 ### ページの章立て

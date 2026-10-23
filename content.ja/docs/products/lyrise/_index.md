@@ -11,7 +11,7 @@ lyrise が開発しているプロダクトの一覧です。
 | [duplicate-finder](duplicate-finder/) | TODO |
 | [editable-move](editable-move/) | TODO |
 | [hash-auditor](hash-auditor/) | TODO |
-| [image-classifier](image-classifier/) | TODO |
+| [image-picker](image-picker/) | TODO |
 | [tredir](tredir/) | TODO |
 | [uredir](uredir/) | TODO |
 | [fredir](fredir/) | TODO |
