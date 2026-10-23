@@ -1,12 +1,13 @@
 ---
 title: "Axus"
-weight: 10
+weight: 20
 ---
 
 | 項目 | 内容 |
 | --- | --- |
 | リポジトリ | [omnius-labs/axus](https://github.com/omnius-labs/axus) |
-| 公開範囲 | Public |
+| 公開範囲 | パブリック / オープンソース |
+| ライセンス | MIT |
 | ステータス | 開発中 |
 
 ## Goal
@@ -23,4 +24,6 @@ weight: 10
 
 ## Features
 
-- TODO
+- ファイルをアップロード・ダウンロードできる。
+- ファイルの検索と公開を、Web of Trust による保護のもとで行える。
+- ネットワーク内で情報を共有するための掲示板機能を備える。
